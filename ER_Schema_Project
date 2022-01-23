@@ -1,26 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T23:38:46.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="vePP9Qfw-hydkLrgdBWI" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-23T22:02:43.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Y7Q4aH2NNn9YM1lrC85l" version="15.9.1" type="github">
   <diagram id="JbsREb5B0Io08jmphtUk" name="Page-1">
     <mxGraphModel dx="408" dy="225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XToYsirkaxxAqt0xZy---1" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="80" height="40" as="geometry" />
+        <mxCell id="XToYsirkaxxAqt0xZy---15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XToYsirkaxxAqt0xZy---1" target="XToYsirkaxxAqt0xZy---14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XToYsirkaxxAqt0xZy---3" value="Servicios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="200" width="80" height="40" as="geometry" />
+        <mxCell id="XToYsirkaxxAqt0xZy---1" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---3" value="Servicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XToYsirkaxxAqt0xZy---5" value="id_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="10" y="210" width="80" height="30" as="geometry" />
+          <mxGeometry x="15" y="260" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XToYsirkaxxAqt0xZy---6" value="nombre_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="90" height="30" as="geometry" />
+          <mxGeometry x="95" y="230" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XToYsirkaxxAqt0xZy---7" value="apellido_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="90" height="30" as="geometry" />
+          <mxGeometry x="190" y="260" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XToYsirkaxxAqt0xZy---9" value="pin_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="210" y="150" width="90" height="30" as="geometry" />
+          <mxGeometry x="400" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---10" value="user_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---11" value="metodo_de_pago" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---12" value="estado_de_pago" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---13" value="pago_cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XToYsirkaxxAqt0xZy---14" target="XToYsirkaxxAqt0xZy---3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XToYsirkaxxAqt0xZy---14" value="contrata" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="95" y="360" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
